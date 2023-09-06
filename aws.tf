@@ -3,6 +3,6 @@ resource "aws_instance" "teraform-1-instance" {
     instance_type = "t2.micro"
     count = 1
     tags={
-       Name= "trf-ambaji"
+       Name= "trf-ambaji-1"
     }
    }
